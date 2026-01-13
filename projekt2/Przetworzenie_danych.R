@@ -117,4 +117,5 @@ gotowe <- df2 %>%
 
 write.csv(gotowe, "wiadomosci_przetworzone.csv",
           row.names = FALSE, fileEncoding = "UTF-8")
-View(top_topics)
+
+
